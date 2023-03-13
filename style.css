@@ -1,0 +1,58 @@
+.bat_wrapper {
+  height: 400px;
+  width: 400px;
+  background-color: black;
+  margin: auto;
+  position: relative;
+}
+
+.bat_body {
+  height: 100px;
+  width: 300px;
+  background: #ecaa53;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px 0 0 0;
+}
+
+.black_circle {
+  height: 105px;
+  width: 105px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  left: -35px;
+  top: -1px;
+}
+
+.black_circle2 {
+  height: 105px;
+  width: 125px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 35px;
+  top: 65px;
+}
+
+.black_circle3 {
+  height: 105px;
+  width: 125px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 150px;
+  top: 65px;
+}
+
+.black_circle4 {
+  height: 105px;
+  width: 105px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  right: -38px;
+  top: -2px;
+}
