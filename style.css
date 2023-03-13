@@ -1,6 +1,6 @@
 .bat_wrapper {
-  height: 400px;
-  width: 400px;
+  height: 280px;
+  width: 380px;
   background-color: black;
   margin: auto;
   position: relative;
@@ -16,7 +16,44 @@
   transform: translate(-50%, -50%);
   border-radius: 10px 0 0 0;
 }
+.face_area {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  background-color: black;
+  position: absolute;
+  left: 100px;
+  top: -60px;
+}
 
+.nose {
+  height: 20px;
+  width: 25px;
+  background: #ecaa53;
+  position: absolute;
+  bottom: -2px;
+  left: 37px;
+}
+
+.nose_futa_left {
+  height: 10px;
+  width: 10px;
+  background: #ecaa53;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  border-radius: 50%;
+}
+
+.nose_futa_right {
+  height: 10px;
+  width: 10px;
+  background: #ecaa53;
+  position: absolute;
+  top: -7px;
+  right: -5px;
+  border-radius: 50%;
+}
 .black_circle {
   height: 105px;
   width: 105px;
